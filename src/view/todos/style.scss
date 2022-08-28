@@ -1,0 +1,53 @@
+.Todo-list-container{
+    .input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input{
+            padding: 10px 20px;
+            border: none;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        button{
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            color: red;
+        }
+        button:hover{
+            background: aqua;
+        }
+    }
+    .todo-content{
+        padding: 20px;
+       
+        margin: auto;
+        .todo-item{
+            display: flex;
+            align-items: center;
+            height: 30px;
+        
+            justify-content: center;      
+          padding: 20px 0;
+           width: 100%;
+           margin: auto;
+            .text-item{
+                padding: 0 40px;
+                line-height: 30px;
+            }
+            .button{
+                line-height: 30px;
+
+                button {
+                    line-height: 30px;
+                    margin-left: 10px;
+                    border-radius: 10px;
+                }
+                button:hover{
+                    background-color: aquamarine;
+                }
+            }
+        }
+    }
+}
